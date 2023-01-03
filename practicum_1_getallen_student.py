@@ -151,9 +151,7 @@ def primefactors(n):
                 factors.append(current_p)
                 
                 # Als n een priem getal is dan zijn we klaar en moeten we die ook nog even toevoegen aan de lijst
-                if is_prime(n):
-                    factors.append(n)
-                    break
+
             # We konden niet delen dus we gaan p groter maken tot dat wel kan.
             else:
                 current_p = current_p + 1
